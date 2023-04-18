@@ -4,13 +4,20 @@
     text-transform: capitalize;
     transition: .5s;
 }
+p{
+    font-size: .9vw;
+}
+h1{
+    font-size: 1.8vw;
+}
 main{
     width: 100%;
     margin: auto;
+    position: relative;
 }
 body{
     background-color: rgb(53, 102, 38); 
-   width: 100vh;
+  width: 100vw;
 }
 main .heder{
     width: 100%;
@@ -22,29 +29,32 @@ main .heder{
 main .heder .logo{
   
     
-    padding-left: 150px;
+    padding-left: 8vw;
 
 }
 main .heder .logo p{
     position: absolute;
-    top: 50px;
-    left:240px;
-    font-size: 20px;
+    top: 2vw;
+    left:13vw;
+    font-size: 1vw;
 }
 main .heder .logo img{
-    width: 120px;
+    width: 7vw;
 }
 main .heder .logo span{
-    font-size: 40px;
+    font-size: 1.5vw;
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
 main .heder .sosial{
  
     display: flex;
     flex-direction: column;
-    padding-right: 100px;
+    padding-right:8vw;
     color: aliceblue;
     justify-content: space-evenly;
+}
+main .heder .sosial p{
+   font-size: 1.2vw;
 }
 main .contaner{
     width: 80%;
@@ -70,11 +80,11 @@ main .contaner ul{
 
 }
 main .contaner  ul li{
-padding: 20px 0;
-font-size: 25px;
+padding: 1vw 0;
+font-size: 1.5vw;
 border-left: 1px solid greenyellow;
 border-right: 1px solid greenyellow;
-width: 300px;
+width: 14vw;
 text-align: center;
 
 }
@@ -84,13 +94,13 @@ main .contaner .back{
 }
 main .contaner .back img{
     width: 100%;
-    height: 500px;
+    height: 50vw;
 }
 main .part1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 2vw;
     background-color: aliceblue;
 
 }
@@ -99,13 +109,17 @@ main .part1 .item{
    flex-direction: column;
    width: 33%;
    padding: 14px;
-   font-family: monospace;
-   gap: 15px;
+ 
+   gap: 1vw;
+   font-size: .8vw;
    
+}
+main .part1 .item .logo1{
+    display: none;
 }
 main .part1 .image{
  width: 100%;
-    height: 250px;
+    height: 30vw;
    
     
 }
@@ -123,9 +137,13 @@ main .part2 .logo{
 }
 main .part2 .logo i{
     transform: rotate(40deg);
+    font-size: 2vw;
+}
+main .part2 .logo span{
+    font-size: 1.4vw;
 }
 main .part3{
-    padding: 50px;
+    padding: 2vw;
 }
 main .part3 h3{
     color: green;
@@ -154,6 +172,11 @@ main .contaner .contact input {
    border: 1px solid orangered;
 
 }
+main .contaner .contact label{
+    font-size: 2vw;
+
+  
+  }
 main .item2 {
     display: flex;
    width: 90%;
@@ -194,6 +217,52 @@ main .item3 button{
     padding: 40px 0;
     flex-direction: column;
     }
+    p{
+        font-size: 3vw;
+    }
+    main .part1 .item .logo1 i{
+        transform: rotate(40deg);
+        font-size: 4vw;
+        
+    }
+    main .part1 .item .logo1 span{
+        font-size:2vw;
+    }
+    .part2 .logo1 span{
+        font-size: 3.8vw;
+
+    }
+    .part1 .item img{
+      height:50vw;
+    }
+  
+    main .contaner  ul li{
+        padding: 1vw 0;
+        font-size: 2.2vw;
+        border-left: 1px solid greenyellow;
+        border-right: 1px solid greenyellow;
+        width: 14vw;
+        text-align: center;
+        
+        }
+        h1{
+            font-size: 5vw;
+        }
+        main .contaner .contact label{
+           font-size: 2vw;
+
+         
+         }
+         main .contaner .contact input{
+            width: 100%;
+         }
+         main .part2 .logo{
+            display: none;
+         }
+         main .part1 .item .logo1{
+            display: block;
+         }
+
  
     
 }
