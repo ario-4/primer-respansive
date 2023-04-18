@@ -1,0 +1,199 @@
+*{
+    border: 0;
+    margin: 0;
+    text-transform: capitalize;
+    transition: .5s;
+}
+main{
+    width: 100%;
+    margin: auto;
+}
+body{
+    background-color: rgb(53, 102, 38); 
+   width: 100vh;
+}
+main .heder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(11, 53, 1);
+    
+}
+main .heder .logo{
+  
+    
+    padding-left: 150px;
+
+}
+main .heder .logo p{
+    position: absolute;
+    top: 50px;
+    left:240px;
+    font-size: 20px;
+}
+main .heder .logo img{
+    width: 120px;
+}
+main .heder .logo span{
+    font-size: 40px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+main .heder .sosial{
+ 
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    color: aliceblue;
+    justify-content: space-evenly;
+}
+main .contaner{
+    width: 80%;
+    margin: auto;
+   background-color: aliceblue;
+   
+
+}
+
+main .contaner ul{
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+    width: 100%;
+    background-color: rgb(35, 71, 35);
+    flex-direction: row;
+    padding-inline-start: 0;
+    justify-content:space-around;
+}
+.header1{
+    width: 100%;
+
+
+}
+main .contaner  ul li{
+padding: 20px 0;
+font-size: 25px;
+border-left: 1px solid greenyellow;
+border-right: 1px solid greenyellow;
+width: 300px;
+text-align: center;
+
+}
+main .contaner .back{
+    width: 100%;
+    margin: auto;
+}
+main .contaner .back img{
+    width: 100%;
+    height: 500px;
+}
+main .part1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: aliceblue;
+
+}
+main .part1 .item{
+   display: flex;
+   flex-direction: column;
+   width: 33%;
+   padding: 14px;
+   font-family: monospace;
+   gap: 15px;
+   
+}
+main .part1 .image{
+ width: 100%;
+    height: 250px;
+   
+    
+}
+main .part2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .part2 .logo{
+    width: 33%;
+    border-bottom: 3px solid green;
+    text-align: center;
+   margin-bottom:30px;
+   margin-top: 50px;
+}
+main .part2 .logo i{
+    transform: rotate(40deg);
+}
+main .part3{
+    padding: 50px;
+}
+main .part3 h3{
+    color: green;
+    margin-bottom: 30px;
+}
+main .contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main .contact .item1{
+    width: 90%;
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+padding: 40px 0;
+
+
+
+}
+main .contact  h1{
+    color: orangered;
+}
+main .contaner .contact input {
+   width: 50%;
+   border: 1px solid orangered;
+
+}
+main .item2 {
+    display: flex;
+   width: 90%;
+  margin: auto;
+ 
+   
+}
+main .item3{
+    width: 90%;
+    margin: auto;
+   
+}
+main .item3 textarea{
+    width: 100%;
+    border: 1px solid orangered;
+    margin-top: 20px;
+}
+main .item3 button{
+    width: 100%;
+    border-radius: 4px;
+    color: aliceblue;
+    background-color: orangered;
+    margin-top: 20px;
+}
+@media screen and (max-width: 500px) {
+    main .part1{
+        flex-direction: column;
+    }
+    main .part1 .item{
+        width: 80%;
+        margin: auto;
+    }
+    main .contact .item1 , .item2{
+        width: 90%;
+      display: flex;
+      justify-content:space-between;
+      margin: auto;
+    padding: 40px 0;
+    flex-direction: column;
+    }
+ 
+    
+}
